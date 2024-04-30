@@ -1,0 +1,100 @@
+body{
+    background-color:rgb(255, 255, 130);
+    color: rgb(37, 2, 70);   
+}
+.box-1{
+background-color: rgb(89, 7, 165);
+color: rgb(221, 225, 15);
+border: 10px rgb(26, 0, 40) solid;
+border-style: dashed;
+padding: 25px;
+margin: 20px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.box-1 h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 1em;
+}
+.box-2{
+    border: 3px dotted rgb(56, 2, 83);
+    padding: 20px;
+    margin: 20px 0;
+}
+.categories {
+    border: 1px rgb(56, 2, 83);
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2 {
+    text-align: center;
+}
+.categories ul {
+    padding: 0%;
+    padding-left: 20px;
+    list-style: square;
+}
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px rgb(56, 2, 83);
+    list-style-image: url(Adam.jpeg);
+}
+a {
+    text-decoration: none;
+    color: rgb(56, 2, 83);
+}
+a:hover {
+    color: rgb(124, 9, 181);
+}
+a :active {
+    color: rgb(221, 225, 15);
+}
+a :visited {
+    color: rgb(173, 144, 201);
+}
+.my-form {
+    padding: 20px;
+}
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input [type="text"], my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color: rgb(56, 2, 83);
+    color: rgb(173, 144, 201);
+    padding: 10px 15px;
+    border: none;
+}
+/*a:visited {
+    color:black;
+}*/
+.button:hover {
+    background: rgb(221, 225, 15);
+    color: rgb(55, 40, 70);
+}
+.block {
+    float:left;
+    width: 33.3%;
+    border: 1px solid rgb(56, 2, 83);
+    padding: 10px;
+    box-sizing: border-box;
+}
